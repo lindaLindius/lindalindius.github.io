@@ -1,0 +1,45 @@
+<html><head>
+		<title>Min Sida</title>
+		<meta charset="UTF8">
+		 <link rel="stylesheet" type="text/css" href="minCSS.css">
+	</head>
+	<body bgcolor="#FFEE33">
+		<h1>RUBRIK</h1>
+		<h2>Hello World!</h2>
+	
+		<p> Välkommen till min sida</p>
+		<p style="color: blue; font-size:22px;">Här kan du läsa om html. </p>
+		<a href="http://moodle.campustelge.se">Moodle</a>
+		<br>
+		<br>
+		<img src="https://y.cdn-expressen.se/images/13/92/1392e63f46d443fbbdd58eb62a02694b/4x3/650@80.jpg">
+		<pre>Här är en text
+Den är förformaterad
+		</pre>
+		<i>Denna text är italic-kursiv</i>
+		<br>
+
+		<b> Denna text är fet</b>
+		<br>
+
+		<table>
+			<tbody><tr>
+				<th>Kolumn1</th>
+				<th>Kolumn2</th>
+			</tr>
+			<tr>
+				<td>Data1</td>
+				<td>Data2</td>
+			</tr>
+
+		</tbody></table>
+			<button id="button" onclick="minFunktion">Min Knapp</button>
+			<script type="text/javascript">
+			function minFunction()
+			{
+				document.getElementById("div1")innerHTML="nånting konkret";
+			}
+		</script>
+	
+
+</body></html>
